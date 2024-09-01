@@ -1,0 +1,29 @@
+.content-holder {
+    background-color: rgb(239, 229, 221); /* Background color */
+    width: 100%;                          /* Full width */
+    min-height: 100vh;                    /* Full viewport height */
+    padding-top: 100px;                   /* Padding at the top */
+    display: flex;                        /* Flexbox for column layout */
+    flex-direction: column;
+    gap: 25px;                            /* Gap between flex items */
+    position: relative;                   /* Relative position for child elements */
+    overflow: hidden;                    /* Allow overflow for sliding elements */
+}
+
+.gla_slider_flower {
+    position: absolute; /* Absolute positioning to allow sliding */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;        /* Ensure it's below other content but above the background */
+}
+
+.gla_slider_flower_item {
+    position: absolute;
+}
+
+.container {
+    padding-top:250px;
+    padding-bottom: 0px;
+}
