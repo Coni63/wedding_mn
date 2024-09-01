@@ -39,7 +39,9 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "public/assets/js/jquery-1.12.4.min.js"
+              "public/assets/js/jquery-1.12.4.min.js",
+              "public/assets/js/glanz_library.js",
+              "public/assets/js/glanz_script.js"
             ]
           },
           "configurations": {

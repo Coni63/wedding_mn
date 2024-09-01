@@ -12,7 +12,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build --configuration production --base-href=https://coni63.github.io/wedding_mn/` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Deploy
+
+Deploy to github pages using: `npx angular-cli-ghpages --dir=dist/browser`
 
 ## Running unit tests
 
