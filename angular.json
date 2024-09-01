@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/wedding_spa",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -32,9 +32,15 @@
               }
             ],
             "styles": [
+              "public/assets/css/glanz_library.css",
+              "public/assets/fonts/themify-icons.css",
+              "public/assets/css/glanz_style.css",
+              "public/assets/fonts/marsha/stylesheet.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "public/assets/js/jquery-1.12.4.min.js"
+            ]
           },
           "configurations": {
             "production": {
