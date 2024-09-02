@@ -2,7 +2,8 @@
     background-color: rgb(239, 229, 221); /* Background color */
     width: 100%;                          /* Full width */
     min-height: 100vh;                    /* Full viewport height */
-    padding-top: 100px;                   /* Padding at the top */
+    padding-top: 51px;                   /* Padding at the top */
+    padding-bottom: 300px;
     display: flex;                        /* Flexbox for column layout */
     flex-direction: column;
     gap: 25px;                            /* Gap between flex items */
@@ -24,6 +25,6 @@
 }
 
 .container {
-    padding-top:250px;
+    // padding-top:250px;
     padding-bottom: 0px;
 }
