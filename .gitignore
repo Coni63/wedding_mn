@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+public/photos/*
+!public/photos/harbor.jpg
+!public/photos/hotel.jpg
+!public/photos/iad.jpg
+!public/photos/yb13.jpg
